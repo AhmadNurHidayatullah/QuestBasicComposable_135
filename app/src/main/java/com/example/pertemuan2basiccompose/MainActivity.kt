@@ -48,7 +48,9 @@ fun Layout(modifier: Modifier = Modifier)
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxSize()
         ) {
-            Text(text = "Login")
+            Text(text = "Login",
+            style = TextStyle(fontSize = 50.sp,
+                fontWeight = FontWeight.Bold))
 
 
 
