@@ -72,6 +72,14 @@ fun Layout(modifier: Modifier = Modifier)
         }
     }
 
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Pertemuan2BasicComposeTheme {
+        Layout()
+    }
+}
+
 
 
 
