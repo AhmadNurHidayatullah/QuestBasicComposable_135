@@ -52,7 +52,9 @@ fun Layout(modifier: Modifier = Modifier)
             style = TextStyle(fontSize = 50.sp,
                 fontWeight = FontWeight.Bold))
 
-            Text(text = "Assalamualaikum")
+            Text(text = "Assalamualaikum",
+                style = TextStyle(fontSize = 20.sp,
+                    fontWeight = FontWeight.Normal))
 
 
 
