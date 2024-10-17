@@ -56,6 +56,8 @@ fun Layout(modifier: Modifier = Modifier)
                 style = TextStyle(fontSize = 20.sp,
                     fontWeight = FontWeight.Normal))
 
+            Image(painter = painterResource(id = R.drawable.ada),
+
 
 
 
