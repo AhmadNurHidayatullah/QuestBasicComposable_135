@@ -67,6 +67,8 @@ fun Layout(modifier: Modifier = Modifier)
 
             Text(text = "20220140135", style = TextStyle(fontSize = 50.sp))
 
+            Image(painter = painterResource(id = R.drawable.apalah),
+
 
 
 
