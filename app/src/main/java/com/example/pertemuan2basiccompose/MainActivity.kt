@@ -40,3 +40,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun Layout(modifier: Modifier = Modifier){}
+
