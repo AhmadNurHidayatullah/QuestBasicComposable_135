@@ -57,6 +57,7 @@ fun Layout(modifier: Modifier = Modifier)
                     fontWeight = FontWeight.Normal))
 
             Image(painter = painterResource(id = R.drawable.ada),
+                contentDescription = null, modifier = Modifier.padding(top = 30.dp).size(250.dp))
 
 
 
