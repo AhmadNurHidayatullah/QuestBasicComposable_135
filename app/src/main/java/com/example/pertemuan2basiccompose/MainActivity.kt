@@ -29,3 +29,4 @@ import com.example.pertemuan2basiccompose.ui.theme.Pertemuan2BasicComposeTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
