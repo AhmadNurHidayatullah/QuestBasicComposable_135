@@ -59,7 +59,8 @@ fun Layout(modifier: Modifier = Modifier)
             Image(painter = painterResource(id = R.drawable.ada),
                 contentDescription = null, modifier = Modifier.padding(top = 30.dp).size(250.dp))
 
-            Text(text = "Nama :"
+            Text(text = "Nama :",style = TextStyle(fontSize = 20.sp,
+                fontWeight = FontWeight.Bold, ), modifier = Modifier.padding(top = 20.dp))
 
 
 
