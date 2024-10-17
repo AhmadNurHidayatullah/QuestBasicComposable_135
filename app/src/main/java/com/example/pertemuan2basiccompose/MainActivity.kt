@@ -62,7 +62,9 @@ fun Layout(modifier: Modifier = Modifier)
             Text(text = "Nama :",style = TextStyle(fontSize = 20.sp,
                 fontWeight = FontWeight.Bold, ), modifier = Modifier.padding(top = 20.dp))
 
-            Text(text = "Ahmad Nur Hidayatullah",color = Color.Red
+            Text(text = "Ahmad Nur Hidayatullah",color = Color.Red,
+                style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold))
+
 
 
 
